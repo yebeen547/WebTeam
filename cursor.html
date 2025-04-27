@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevWithAI</title>
+    <link rel="stylesheet" href="/css/github.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 메뉴 바 -->
+    <nav class="navbar">
+      <div class="logo">DevWithAI</div>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="/index.html">HOME</a></li>
+        <li><a href="/ai.html">AI MODEL</a></li>
+        <li><a href="/team.html">TEAM</a></li>
+      </ul>
+    </nav>
+
+    <div class="layout">
+      <div class="flexbox">
+        <div class="item image">
+          <img src="/img/Cursor.jpeg" alt="cousor 사진" />
+        </div>
+        <div class="item text">
+          <h2>Cousor</h2>
+          <p>
+            Cousor는 AI 기반의 코드 보조 도구로, 개발자가 더 효율적으로 코드를
+            작성할 수 있도록 실시간으로 자동완성, 디버깅, 코드 분석 등의 기능을
+            제공합니다. 주로 웹 개발과 관련된 작업에서 뛰어난 성능을 보이며,
+            사용자가 직관적으로 코드를 빠르게 작성할 수 있게 돕습니다.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="feature-section">
+      <h2>특징</h2>
+      <div class="feature-box">
+        <p>
+          <strong>AI 코드 자동완성 :</strong> <br />실시간 코드 추천 및 완성을
+          도와줍니다.
+        </p>
+        <p>
+          <strong>디버깅 지원 :</strong> <br />오류를 미리 감지하고, 수정 방안을
+          제시합니다.
+        </p>
+        <p>
+          <strong>다양한 언어 지원 :</strong> <br />주로 웹 개발
+          언어(JavaScript, HTML, CSS 등)에 강점을 지닙닙니다.
+        </p>
+        <p>
+          <strong>직관적인 UI :</strong> <br />사용하기 쉬운 인터페이스로,
+          개발자 경험을 개선합니다.
+        </p>
+      </div>
+    </section>
+
+    <section class="feature-section">
+      <h2>대상 사용자</h2>
+      <div class="feature-box">
+        <p>
+          <strong>웹 개발자, 초보 개발자, 프로젝트 관리자</strong>
+          <br /><br />Cousor는 웹 개발자들에게 매우 유용한 AI 도구로, 코드 작성
+          과정에서 실시간으로 지원을 제공합니다. 초보 개발자에게는 코드 작성의
+          흐름을 이해하고 오류를 피할 수 있도록 자동완성과 디버깅 지원을 통해
+          학습을 돕습니다. 예를 들어, HTML이나 CSS 코드 작성 시 Cousor가
+          실시간으로 적절한 코드 예시를 제시하거나, 잘못된 부분을 자동으로 수정
+          제안하여 실수를 줄일 수 있습니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>© 2025 DevWithAI Team.</footer>
+
+    <!-- 메뉴 토글 스크립트 -->
+    <script>
+      const toggle = document.getElementById('menu-toggle')
+      const navLinks = document.getElementById('nav-links')
+      toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show')
+      })
+    </script>
+  </body>
+</html>

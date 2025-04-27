@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevWithAI</title>
+    <link rel="stylesheet" href="/css/team-style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar">
+      <div class="logo">DevWithAI</div>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="/index.html">HOME</a></li>
+        <li><a href="/ai.html">AI MODEL</a></li>
+        <li><a href="/team.html">TEAM</a></li>
+      </ul>
+    </nav>
+
+    <!-- 팀원 소개 섹션 -->
+    <div class="team-section">
+      <main id="contents">
+        <h1>팀원 소개</h1>
+
+        <section class="member">
+          <h2>92410859 이예빈</h2>
+          <p>
+            <a href="https://github.com/yebeen547" target="_blank" class="btn"
+              >GitHub</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://web-portpolio.vercel.app/"
+              target="_blank"
+              class="btn"
+              >Website</a
+            >
+          </p>
+        </section>
+
+        <section class="member">
+          <h2>92410914 정효민</h2>
+          <p>
+            <a href="https://github.com/EHWkddl" target="_blank" class="btn"
+              >GitHub</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://web-portfolio-amber-five.vercel.app/"
+              target="_blank"
+              class="btn"
+              >Website</a
+            >
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <!-- 푸터 -->
+    <footer>© 2025 DevWithAI Team.</footer>
+
+    <!-- 메뉴 토글 스크립트 -->
+    <script>
+      const toggle = document.getElementById('menu-toggle')
+      const navLinks = document.getElementById('nav-links')
+      toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show')
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevWithAI</title>
+    <link rel="stylesheet" href="/css/github.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 메뉴 바 -->
+    <nav class="navbar">
+      <div class="logo">DevWithAI</div>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="/index.html">HOME</a></li>
+        <li><a href="/ai.html">AI MODEL</a></li>
+        <li><a href="/team.html">TEAM</a></li>
+      </ul>
+    </nav>
+
+    <div class="layout">
+      <div class="flexbox">
+        <div class="item image">
+          <img src="/img/GitHub Copilot.png" alt="github ai 사진" />
+        </div>
+        <div class="item text">
+          <h2>GitHub Copilot</h2>
+          <p>
+            GitHub Copilot은 개발자가 코드를 작성할 때 실시간으로 코드를
+            제안하고 자동 완성해주는 인공지능 도우미입니다. OpenAI의 최신
+            인공지능 기술을 기반으로 수많은 오픈소스 코드를 학습하여, 복잡한
+            함수부터 반복적인 루틴 작업까지 Copilot이 제안해주며, 초보자부터
+            전문가까지 모두가 효율적으로 코드를 작성할 수 있도록 도와줍니다.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="feature-section">
+      <h2>특징</h2>
+      <div class="feature-box">
+        <p>
+          <strong>다양한 언어 지원 :</strong> <br />Python, JavaScript,
+          TypeScript, Go, Java 등 여러 언어를 지원합니다.
+        </p>
+        <p>
+          <strong>코드 자동 완성 :</strong> <br />함수 작성, 반복문 등 다양한
+          코드를 실시간으로 제안합니다.
+        </p>
+        <p>
+          <strong>주석 기반 코드 생성 :</strong> <br />주석만 작성해도 Copilot이
+          코드를 완성해줍니다.
+        </p>
+        <p>
+          <strong>개인 맞춤형 추천 :</strong> <br />개발자의 코딩 스타일을
+          학습해 더욱 정확한 추천을 제공합니다.
+        </p>
+      </div>
+    </section>
+
+    <section class="feature-section">
+      <h2>대상 사용자</h2>
+      <div class="feature-box">
+        <p>
+          <strong
+            >개발자, 코드를 빨리 작성하고 싶은 사람, 새로운 프로그래밍 언어나
+            프레임워크를 배우고 싶은 사람</strong
+          >
+          <br /><br />GitHub Copilot은 코드 작성 속도를 높이고, 초보
+          개발자에게는 실시간으로 도움을 줄 수 있습니다. 예를 들어, 코드의 특정
+          부분을 이해하거나 작성할 때, Copilot이 자동으로 제안을 해줘서 개발자의
+          학습을 도울 수 있습니다. 또한, 경험이 많은 개발자에게는 반복적인 코드
+          작성에서 벗어나 더 중요한 로직에 집중할 수 있게 해줍니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>© 2025 DevWithAI Team.</footer>
+
+    <!-- 메뉴 토글 스크립트 -->
+    <script>
+      const toggle = document.getElementById('menu-toggle')
+      const navLinks = document.getElementById('nav-links')
+      toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show')
+      })
+    </script>
+  </body>
+</html>

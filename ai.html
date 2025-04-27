@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevWithAI</title>
+    <link rel="stylesheet" href="/css/ai-style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 메뉴 바 -->
+    <nav class="navbar">
+      <div class="logo">DevWithAI</div>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="/index.html">HOME</a></li>
+        <li><a href="/ai.html">AI MODEL</a></li>
+        <li><a href="/team.html">TEAM</a></li>
+      </ul>
+    </nav>
+
+    <section id="boxes">
+      <div class="container">
+        <h1>AI Pedia</h1>
+        <p>
+          다양한 웹 개발을 도와줄 AI의 정보를 찾아보세요. 클릭하면 정보를 찾아볼
+          수 있습니다.
+        </p>
+
+        <div class="category-wrapper">
+          <section class="category">
+            <h2>코드 작성 도구 AI</h2>
+            <div class="category-boxes">
+              <div class="box">
+                <a href="github.html"
+                  ><img src="/img/GitHub Copilot.png" alt="GitHub Copilot"
+                /></a>
+                <h3>GitHub Copilot</h3>
+              </div>
+              <div class="box">
+                <a href="cursor.html"
+                  ><img src="/img/Cursor.jpeg" alt="Cursor"
+                /></a>
+                <h3>Cursor</h3>
+              </div>
+              <div class="box">
+                <a href="codeium.html"
+                  ><img src="/img/codeium.png" alt="Codeium"
+                /></a>
+                <h3>Codeium</h3>
+              </div>
+              <div class="box">
+                <a href="replit.html"
+                  ><img
+                    src="/img/Replit Ghostwriter.png"
+                    alt="Replit Ghostwriter"
+                /></a>
+                <h3>Replit Ghostwriter</h3>
+              </div>
+            </div>
+          </section>
+
+          <section class="category">
+            <h2>질문/검색/대화형 AI</h2>
+            <div class="category-boxes">
+              <div class="box">
+                <a href="chatgpt.html"
+                  ><img src="/img/chatgpt.png" alt="ChatGPT"
+                /></a>
+                <h3>ChatGPT</h3>
+              </div>
+              <div class="box">
+                <a href="phind.html"
+                  ><img src="/img/phind.jpg" alt="Phind"
+                /></a>
+                <h3>Phind</h3>
+              </div>
+            </div>
+          </section>
+
+          <section class="category">
+            <h2>UI/디자인 관련 AI</h2>
+            <div class="category-boxes">
+              <div class="box">
+                <a href="galileo.html"
+                  ><img src="/img/Galileo AI.png" alt="Galileo AI"
+                /></a>
+                <h3>Galileo AI</h3>
+              </div>
+              <div class="box">
+                <a href="uizard.html"
+                  ><img src="/img/Uizard.jpeg" alt="Uizard"
+                /></a>
+                <h3>Uizard</h3>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- category-wrapper -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!-- 푸터 -->
+    <footer>© 2025 DevWithAI Team.</footer>
+
+    <!-- 메뉴 토글 스크립트 -->
+    <script>
+      const toggle = document.getElementById('menu-toggle')
+      const navLinks = document.getElementById('nav-links')
+      toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show')
+      })
+    </script>
+  </body>
+</html>
